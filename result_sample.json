@@ -1,0 +1,104 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00000.png", 
+ "objects": [ 
+  {"class_id":7, "name":"truck", "relative_coordinates":{"center_x":0.497371, "center_y":0.656625, "width":0.072483, "height":0.135437}, "confidence":0.966960}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.436384, "center_y":0.670656, "width":0.039602, "height":0.048982}, "confidence":0.975791}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.371775, "center_y":0.665912, "width":0.031739, "height":0.039770}, "confidence":0.939754}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00001.png", 
+ "objects": [ 
+  {"class_id":10, "name":"fire hydrant", "relative_coordinates":{"center_x":0.446841, "center_y":0.673295, "width":0.010541, "height":0.037249}, "confidence":0.472045}, 
+  {"class_id":9, "name":"traffic light", "relative_coordinates":{"center_x":0.798264, "center_y":0.533235, "width":0.011623, "height":0.066658}, "confidence":0.551854}, 
+  {"class_id":9, "name":"traffic light", "relative_coordinates":{"center_x":0.373891, "center_y":0.554928, "width":0.023089, "height":0.030026}, "confidence":0.393801}, 
+  {"class_id":9, "name":"traffic light", "relative_coordinates":{"center_x":0.086391, "center_y":0.563371, "width":0.020375, "height":0.035238}, "confidence":0.384191}, 
+  {"class_id":9, "name":"traffic light", "relative_coordinates":{"center_x":0.093874, "center_y":0.628237, "width":0.009999, "height":0.025522}, "confidence":0.287361}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.591956, "center_y":0.708643, "width":0.114574, "height":0.142423}, "confidence":0.998150}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.707600, "center_y":0.689400, "width":0.107712, "height":0.087272}, "confidence":0.992744}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.654991, "center_y":0.668650, "width":0.043658, "height":0.058289}, "confidence":0.825817}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.123398, "center_y":0.680033, "width":0.022667, "height":0.028110}, "confidence":0.333845}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00002.png", 
+ "objects": [ 
+  {"class_id":11, "name":"stop sign", "relative_coordinates":{"center_x":0.271116, "center_y":0.674552, "width":0.032759, "height":0.046416}, "confidence":0.365234}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.439114, "center_y":0.689119, "width":0.077681, "height":0.105181}, "confidence":0.990579}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.503050, "center_y":0.667175, "width":0.037669, "height":0.046684}, "confidence":0.982175}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.529338, "center_y":0.660594, "width":0.024599, "height":0.038332}, "confidence":0.882531}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.615694, "center_y":0.647855, "width":0.033291, "height":0.046152}, "confidence":0.610326}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.572474, "center_y":0.663726, "width":0.043127, "height":0.087077}, "confidence":0.331567}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.546356, "center_y":0.663051, "width":0.013478, "height":0.029828}, "confidence":0.262121}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00003.png", 
+ "objects": [ 
+  {"class_id":74, "name":"clock", "relative_coordinates":{"center_x":0.554555, "center_y":0.568618, "width":0.014512, "height":0.025329}, "confidence":0.572373}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.225630, "center_y":0.719743, "width":0.173018, "height":0.199844}, "confidence":0.972551}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.476532, "center_y":0.665628, "width":0.020967, "height":0.030625}, "confidence":0.644833}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.354132, "center_y":0.667085, "width":0.012409, "height":0.052877}, "confidence":0.837917}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.317092, "center_y":0.673330, "width":0.017509, "height":0.064934}, "confidence":0.665671}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.429649, "center_y":0.662511, "width":0.011103, "height":0.025459}, "confidence":0.420872}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.443691, "center_y":0.659664, "width":0.008650, "height":0.022427}, "confidence":0.380179}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.284588, "center_y":0.665331, "width":0.021635, "height":0.042290}, "confidence":0.280230}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00004.png", 
+ "objects": [ 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.376525, "center_y":0.663728, "width":0.022135, "height":0.026771}, "confidence":0.813428}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.364402, "center_y":0.664517, "width":0.011152, "height":0.018598}, "confidence":0.322806}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.338552, "center_y":0.665725, "width":0.015327, "height":0.052715}, "confidence":0.872543}, 
+  {"class_id":0, "name":"person", "relative_coordinates":{"center_x":0.320360, "center_y":0.673312, "width":0.011457, "height":0.040887}, "confidence":0.627446}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00005.png", 
+ "objects": [ 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.418787, "center_y":0.663049, "width":0.020169, "height":0.026484}, "confidence":0.355501}, 
+  {"class_id":5, "name":"bus", "relative_coordinates":{"center_x":0.418787, "center_y":0.663049, "width":0.020169, "height":0.026484}, "confidence":0.436147}, 
+  {"class_id":7, "name":"truck", "relative_coordinates":{"center_x":0.418787, "center_y":0.663049, "width":0.020169, "height":0.026484}, "confidence":0.352798}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00006.png", 
+ "objects": [ 
+  {"class_id":7, "name":"truck", "relative_coordinates":{"center_x":0.397694, "center_y":0.636542, "width":0.070111, "height":0.098255}, "confidence":0.741523}, 
+  {"class_id":5, "name":"bus", "relative_coordinates":{"center_x":0.397669, "center_y":0.636493, "width":0.070002, "height":0.097906}, "confidence":0.701525}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.324158, "center_y":0.671308, "width":0.072314, "height":0.099569}, "confidence":0.992376}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00007.png", 
+ "objects": [ 
+  {"class_id":9, "name":"traffic light", "relative_coordinates":{"center_x":0.343709, "center_y":0.627531, "width":0.008001, "height":0.013922}, "confidence":0.687156}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.460033, "center_y":0.663267, "width":0.036999, "height":0.051007}, "confidence":0.986697}, 
+  {"class_id":2, "name":"car", "relative_coordinates":{"center_x":0.106733, "center_y":0.703112, "width":0.204607, "height":0.232908}, "confidence":0.972439}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00008.png", 
+ "objects": [ 
+
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"/home/kaan/Desktop/german_yolo/sample/00009.png", 
+ "objects": [ 
+  {"class_id":11, "name":"stop sign", "relative_coordinates":{"center_x":0.397698, "center_y":0.589210, "width":0.017207, "height":0.030166}, "confidence":0.364235}
+ ] 
+}
+]
