@@ -2,10 +2,10 @@ import glob
 import cv2
 import os
 
-folders_path = "/home/otonom2/Desktop/rosbag_13.05_labelled/"
+folders_path = "/home/otonom2/Desktop/toKaan/traffik_light_close_up/"
 
 
-output_folder = "/home/otonom2/Desktop/1_cropped/"
+output_folder = "/home/otonom2/Desktop/cropped/"
 
 for folder in os.listdir(folders_path):
 
@@ -34,7 +34,7 @@ for folder in os.listdir(folders_path):
         for i in range(len(lines)):
             values = lines[i].split(" ")
             
-            x_center = float(values[1]) * width
+            x_center = float(values[1]) * width 
             y_center = float(values[2]) * height
 
             bbox_width = float(values[3]) * width
@@ -50,5 +50,5 @@ for folder in os.listdir(folders_path):
             if int(values[0]) == 7:
                 cv2.imwrite(os.path.join(output_folder,  str(folder) + "_" + str(counter)+ ".jpg"),bbox_img)
                 counter+=1
-            
+            print(counter)
             cv2.waitKey(0)

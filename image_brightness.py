@@ -14,10 +14,7 @@ adjusted = cv2.convertScaleAbs(image, alpha=alpha, beta=beta)
 out1 = skimage.exposure.rescale_intensity(image, in_range=(0,128), out_range=(0,255))
 yen_threshold = threshold_yen(image)
 bright = rescale_intensity(image, (0, yen_threshold), (0, 255))
-hsv = cv2.cvtColor(image, cv2.COLOR_RGB2HSV)
 
-v = hsv[:, :, 2]
-cv2.imshow('v', v)
 
 cv2.imshow('Out1', out1)
 cv2.imshow('bright', bright)
