@@ -4,21 +4,21 @@ import os
 
 print("hello world!")
 
-coco_dataset_folder = "/media/kaan/Sata/Datasets/Coco/"
-label_folder = coco_dataset_folder + 'annotations/instances_train2017.json'
-darknet_folder = "/media/kaan/Sata"
+coco_dataset_folder = "/home/otonom2/Downloads/DFG/JPEGImages"
+label_folder = '/home/otonom2/Downloads/DFG/DFG-tsd-annot-json/train.json'
+darknet_folder = "/home/otonom2/Downloads/DFG_dataset"
 
 coco = COCO(label_folder)
 
-category_names = [ "name1", "name2"]
+category_names = ["traffic sign"]
 
 
 
 if __name__ == "__main__":
 
     cat_ids = coco.getCatIds(catNms=category_names)
-    train_file = open("/media/kaan/Sata/bdd100_and_coco/train.txt", "a+")
-
+    train_file = open("/home/otonom2/Downloads/DFG_dataset/train.txt", "a+")
+    
     for cat_id in cat_ids:
 
         ann_ids = coco.getAnnIds(catIds=cat_id)
@@ -33,6 +33,7 @@ if __name__ == "__main__":
             y_top_left = ann['bbox'][1]
             bbox_width = ann['bbox'][2]
             bbox_height = ann['bbox'][3]
+
 
             img_id = ann['image_id']
             img = coco.loadImgs(ids=img_id)
@@ -51,7 +52,7 @@ if __name__ == "__main__":
 
             # print("{} {} {} {} {}".format(1, a, b, c, d))
 
-            shutil.copy(coco_dataset_folder + "train2017/" + img_name, darknet_folder + "train/" + img_name)
+            shutil.copy(coco_dataset_folder + img_name, darknet_folder + "train/" + img_name)
             with open(os.path.splitext(darknet_folder + "train/" + img_name)[0] + ".txt", "a+") as fp:
                 fp.write("{} {} {} {} {}\n".format(str(coco_id_to_bddk[int(cat_id)]), a, b, c, d))
 
